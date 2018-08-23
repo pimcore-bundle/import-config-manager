@@ -3,7 +3,7 @@
     "description": "Helps import and export pimcore import configurations",
     "type": "pimcore-bundle",
     "require": {
-        "pimcore/core-version": ">=5.2.3"
+        "pimcore/core-version": ">=5.2.1"
     },
     "license": "MIT",
     "authors": [
