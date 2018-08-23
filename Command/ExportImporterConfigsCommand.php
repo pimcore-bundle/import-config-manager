@@ -53,8 +53,8 @@ class ExportImporterConfigsCommand extends ContainerAwareCommand
             }
         }
 
-        $content = $importConfig->getConfig();
-        $fileName = $importConfig->getName().".json";
+        $content = json_encode($importConfig);
+        $fileName = md5($importConfig->getName()).".json";
         $fullPath = $savePath.$fileName;
         $result = file_put_contents($fullPath, $content);
         if(!$result){
