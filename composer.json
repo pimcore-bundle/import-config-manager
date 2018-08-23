@@ -1,5 +1,5 @@
 {
-    "name": "faridmovsumov/import-config-manager-bundle",
+    "name": "pimcore-bundle/import-config-manager",
     "description": "Helps import and export pimcore import configurations",
     "type": "pimcore-bundle",
     "require": {
