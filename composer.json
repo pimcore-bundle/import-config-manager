@@ -2,9 +2,6 @@
     "name": "pimcore-bundle/import-config-manager",
     "description": "Helps import and export pimcore import configurations",
     "type": "pimcore-bundle",
-    "require": {
-        "pimcore/core-version": ">=5.0.0"
-    },
     "license": "MIT",
     "authors": [
         {
