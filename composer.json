@@ -9,5 +9,12 @@
             "email": "faridmovsumov@gmail.com"
         }
     ],
+    "extra": {
+        "pimcore": {
+            "bundles": [
+                "ImportConfigManagerBundle\\ImportConfigManagerBundle"
+            ]
+        }
+    },
     "minimum-stability": "stable"
 }
