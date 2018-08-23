@@ -9,6 +9,12 @@ composer require pimcore-bundle/import-config-manager
 
 ## Usage
 
+Add following line into your .gitignore
+```
+!/var/import_config_manager/
+```
+## Configuration
+
 If you want to export just some configurations, add following lines to config.yml
 and those config names into config_names array. If you want to extract all just skip this step.
 
