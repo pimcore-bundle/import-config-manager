@@ -9,7 +9,7 @@ class ImportConfigManagerBundle extends AbstractPimcoreBundle
     public function getJsPaths()
     {
         return [
-            '/bundles/importconfigmanager/js/pimcore/startup.js'
+            //'/bundles/importconfigmanager/js/pimcore/startup.js'
         ];
     }
 }
