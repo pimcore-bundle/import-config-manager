@@ -16,5 +16,13 @@
             ]
         }
     },
+    "require": {
+        "pimcore/core-version": ">=5.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ImportConfigManagerBundle\\": "/"
+        }
+    },
     "minimum-stability": "stable"
 }
