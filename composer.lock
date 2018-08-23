@@ -1,0 +1,37 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "e70ff01447a9dd24cd9f956829a11b92",
+    "packages": [
+        {
+            "name": "pimcore/core-version",
+            "version": "v5.4.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pimcore/core-version.git",
+                "reference": "582bf49c5f35229c946e2ad9d783153b25c04c30"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pimcore/core-version/zipball/582bf49c5f35229c946e2ad9d783153b25c04c30",
+                "reference": "582bf49c5f35229c946e2ad9d783153b25c04c30",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "abandoned": "pimcore/pimcore",
+            "time": "2018-08-03T06:05:04+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

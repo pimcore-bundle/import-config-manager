@@ -1,0 +1,5 @@
+import_config_manager:
+    resource: "@ImportConfigManagerBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
