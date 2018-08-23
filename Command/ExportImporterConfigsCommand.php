@@ -31,13 +31,14 @@ class ExportImporterConfigsCommand extends ContainerAwareCommand
 
         if(empty($importerConfigNames)){
             $output->writeln("Configuration not found in config.yml");
-            return;
         }
 
         $importConfigListing = new ImportConfig\Listing();
         $importConfigs = $importConfigListing->load();
         foreach ($importConfigs as $importConfig){
-            if(in_array($importConfig->getName(), $importerConfigNames)){
+            if(empty($importerConfigNames)){
+                $this->saveConfigFile($importConfig);
+            }elseif(in_array($importConfig->getName(), $importerConfigNames)){
                 $this->saveConfigFile($importConfig);
             }
         }

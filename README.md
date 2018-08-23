@@ -9,7 +9,8 @@ composer require pimcore-bundle/import-config-manager
 
 ## Usage
 
-Add following lines to config.yml
+If you want to export just some configurations, add following lines to config.yml
+and those config names into config_names array. If you want to extract all just skip this step.
 
 ```
 import_config_manager:
